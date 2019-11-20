@@ -1,0 +1,341 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+body, html {
+  height: 100%;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ffcb05;
+  padding: 0;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  color: #00274c;
+  text-align: center;
+  font-family:"Kanit";
+  font-size: medium;
+}
+
+.logo {
+  display: inline-block;
+  line-height: 10px;
+  vertical-align:top;
+  float: left;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 203, 5, 0.5)), url("../mitee-test-website/images/MiTEE_in_orbit_2.png");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.responsive{
+  font-family:"Nunito";
+  vertical-align: center;
+  text-align: center;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family:"Kanit";
+}
+
+.navbar-brand > li > a {
+  display: inline-block;
+  color: #00274c;
+  font-family:"Kanit";
+  float: left;
+  overflow: hidden;
+  padding: 14px 16px;
+  background-color: inherit;
+}
+
+.navbar-nav > li > a {
+  line-height: 10px;	
+  display: inline-block;
+  color: #00274c;
+  font-family:"Kanit";
+  font-size: large;
+  float: left;
+}
+
+.menu-button {
+  line-height: 10px;	
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=000000');
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  padding: 14px 16px;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  #nav-button {
+    display: none;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  #nav-button {
+	display: block;
+	float: right;
+	justify-content: center;
+	align-items: center;
+  }
+  .navbar-nav > li > a {
+    line-height: 10px;	
+    display: block;
+  }
+}
+
+.section-divider {
+  width: 100%;
+  font-family:"Kanit";
+}
+
+.home-header {
+  font-family:"Kanit";
+  vertical-align: center;
+  text-align: center;
+}
+
+.row-padding-simple {
+  max-width: 100%;
+  display: flex;
+  margin-top:10px;
+  margin-bottom:10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom:10px;
+  margin-top:10px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-family:"Kanit";
+}
+
+.row-padding-white {
+  max-width: 100%;
+  display: flex;
+  margin-top:10px;
+  margin-bottom:10px;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color:#e5e5e5;
+  color: #00274c;
+  margin-bottom:10px;
+  margin-top:10px;
+  transition: transform 1s;
+}
+
+.row-padding-tan {
+  max-width: 100%;
+  display: flex;
+  margin-top:10px;
+  margin-bottom:10px;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color:#00274c;
+  color: #e5e5e5;
+  margin-bottom:10px;
+  margin-top:10px;
+  transition: transform 1s;
+}
+
+.row-padding-white:hover {
+  transform: scale(1.05);
+  transform-origin: center;
+}
+
+.row-padding-tan:hover {
+  transform: scale(1.05);
+  transform-origin: center;
+}
+
+.row {
+  max-width: 100%;
+  display: flex;
+  margin-top:10px;
+  margin-bottom:10px;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  font-family:"Nunito";
+}
+
+.col {
+  max-width: 100%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  font-family:"Nunito";
+  padding-top:15px;
+  padding-right:20px;
+  padding-left:20px;
+  padding-bottom:15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-padding-simple {
+  max-width: 100%;
+  display: flex;
+  margin-top:10px;
+  margin-bottom:10px;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.double-col {
+  max-width: 100%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+  font-family:"Nunito";
+  padding-top:15px;
+  padding-right:20px;
+  padding-left:20px;
+  padding-bottom:15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-padding-white {
+  max-width: 100%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  font-family:"Nunito";
+  background-color:#e5e5e5;
+  color: #00274c;
+  margin-right:20px;
+  margin-left:20px;
+  margin-bottom:10px;
+  margin-top:10px;
+  padding-top:5px;
+  padding-right:20px;
+  padding-left:20px;
+  padding-bottom:15px;
+  transition: transform 1s;
+}
+
+.col-padding-tan {
+  max-width: 100%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  font-family:"Nunito";
+  background-color:#00274c;
+  color: #e5e5e5;
+  margin-right:20px;
+  margin-left:20px;
+  margin-bottom:10px;
+  margin-top:10px;
+  padding-top:5px;
+  padding-right:20px;
+  padding-left:20px;
+  padding-bottom:15px;
+  transition: transform 1s;
+}
+
+.col-padding-white:hover {
+  transform: scale(1.05);
+  transform-origin: center;
+}
+
+.col-padding-tan:hover {
+  transform: scale(1.05);
+  transform-origin: center;
+}
+
+/* Formatting for the form on the contact page */
+.form {
+  max-width: 100%;
+  border-radius: 5px;
+  color: white;
+  background-color: #00274c;
+  padding: 20px;
+  font-family:"Nunito";
+}
+
+.form-input {
+  color: #00274c;
+  font-family:"Nunito";
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  color: white;
+  padding: 12px 20px;
+  background-color: #e5e5e5;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a maize color */
+input[type=submit]:hover {
+  background-color: #ffcb05;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+.img-thumbnail {
+  max-width: 100%;
+}
