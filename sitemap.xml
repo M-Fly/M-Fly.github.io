@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://mfly.engin.umich.edu/</loc>
+  <lastmod>2020-03-31T23:22:47+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://mfly.engin.umich.edu/index.html</loc>
+  <lastmod>2020-03-31T23:22:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mfly.engin.umich.edu/about_index.html</loc>
+  <lastmod>2020-03-31T23:22:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mfly.engin.umich.edu/team_index.html</loc>
+  <lastmod>2020-03-31T23:22:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mfly.engin.umich.edu/sponsors_index.html</loc>
+  <lastmod>2020-03-31T23:22:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mfly.engin.umich.edu/contact_us_index.html</loc>
+  <lastmod>2020-03-31T23:22:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
